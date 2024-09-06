@@ -1,4 +1,4 @@
-import { Text, StyleSheet, View } from 'react-native';
+import {StyleSheet, View } from 'react-native';
 import RepositoryList from './RepositoryList';
 import AppBar from './AppBar';
 
@@ -13,7 +13,6 @@ const Main = () => {
   return (
     <View style={styles.container}>
         <AppBar></AppBar>
-      <Text></Text>
       <RepositoryList></RepositoryList>
     </View>
   );
